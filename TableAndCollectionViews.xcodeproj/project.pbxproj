@@ -12,6 +12,12 @@
 		D401CB8521080C3900608A15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D401CB8321080C3900608A15 /* Main.storyboard */; };
 		D401CB8721080C3A00608A15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D401CB8621080C3A00608A15 /* Assets.xcassets */; };
 		D401CB8A21080C3A00608A15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D401CB8821080C3A00608A15 /* LaunchScreen.storyboard */; };
+		D401CB9221080D8D00608A15 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D401CB9121080D8C00608A15 /* CustomTableViewCell.swift */; };
+		D401CB9421080DAF00608A15 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D401CB9321080DAF00608A15 /* CustomTableViewCell.xib */; };
+		D401CB9721081FFA00608A15 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D401CB9521081FFA00608A15 /* CustomCollectionViewCell.swift */; };
+		D401CB9821081FFA00608A15 /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D401CB9621081FFA00608A15 /* CustomCollectionViewCell.xib */; };
+		D401CB9A2108340000608A15 /* CustomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D401CB992108340000608A15 /* CustomHeaderView.swift */; };
+		D401CB9C2108351900608A15 /* CustomHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D401CB9B2108351900608A15 /* CustomHeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		D401CB8621080C3A00608A15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D401CB8921080C3A00608A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D401CB8B21080C3A00608A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D401CB9121080D8C00608A15 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		D401CB9321080DAF00608A15 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		D401CB9521081FFA00608A15 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		D401CB9621081FFA00608A15 /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
+		D401CB992108340000608A15 /* CustomHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeaderView.swift; sourceTree = "<group>"; };
+		D401CB9B2108351900608A15 /* CustomHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomHeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 				D401CB8621080C3A00608A15 /* Assets.xcassets */,
 				D401CB8821080C3A00608A15 /* LaunchScreen.storyboard */,
 				D401CB8B21080C3A00608A15 /* Info.plist */,
+				D401CB9121080D8C00608A15 /* CustomTableViewCell.swift */,
+				D401CB9321080DAF00608A15 /* CustomTableViewCell.xib */,
+				D401CB9521081FFA00608A15 /* CustomCollectionViewCell.swift */,
+				D401CB9621081FFA00608A15 /* CustomCollectionViewCell.xib */,
+				D401CB992108340000608A15 /* CustomHeaderView.swift */,
+				D401CB9B2108351900608A15 /* CustomHeaderView.xib */,
 			);
 			path = TableAndCollectionViews;
 			sourceTree = "<group>";
@@ -124,6 +142,9 @@
 			files = (
 				D401CB8A21080C3A00608A15 /* LaunchScreen.storyboard in Resources */,
 				D401CB8721080C3A00608A15 /* Assets.xcassets in Resources */,
+				D401CB9421080DAF00608A15 /* CustomTableViewCell.xib in Resources */,
+				D401CB9821081FFA00608A15 /* CustomCollectionViewCell.xib in Resources */,
+				D401CB9C2108351900608A15 /* CustomHeaderView.xib in Resources */,
 				D401CB8521080C3900608A15 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D401CB9A2108340000608A15 /* CustomHeaderView.swift in Sources */,
+				D401CB9221080D8D00608A15 /* CustomTableViewCell.swift in Sources */,
 				D401CB8221080C3900608A15 /* ViewController.swift in Sources */,
 				D401CB8021080C3900608A15 /* AppDelegate.swift in Sources */,
+				D401CB9721081FFA00608A15 /* CustomCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

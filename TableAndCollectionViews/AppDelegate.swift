@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  TableAndCollectionViews
-//
-//  Created by Aleksey Kabishau on 0724..18.
-//  Copyright © 2018 Aleksey Kabishau. All rights reserved.
-//
 
 import UIKit
 
